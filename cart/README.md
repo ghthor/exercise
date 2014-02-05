@@ -8,7 +8,7 @@ The program will know the costs of each item in the shopping care and will add t
 The program should expect an unknown amount of space seperated values to be passed to it's standard input pipe.
 An example input file could be
 
-### cart.txt
+##### cart.txt
 
 ```
 10 4 4 4 10 1 4 3 8 9
