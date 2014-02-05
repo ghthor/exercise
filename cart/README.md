@@ -24,13 +24,50 @@ This input mean the cart contains these items.
 - 1x ID(9)
 
 You program will lookup the price values for each of these ID's and add it up for a cart total.
+The price key is in `price-key.txt`.
+The format of this file is as follows.
+
+```
+{id} {price} {dash seperated name}
+```
+
+See `price-key.txt`.
+
+```
+1 5.00 bananna
+2 0.56 ranch-packet
+3 5.45 frozen-pizza
+4 25.00 single-barrel-malt-whiskey
+5 9.87 12-pack-tecate
+6 0.99 gum
+7 4.95 bacon
+8 1.59 cotton-balls
+9 3.33 6-satan-wings
+```
+
+Each line has 3 space seperated values.
+
+The first value is the item's ID.
+The second value is the price of a single ID's worth of that item.
+The third value is a dash seperate textual identifier.
+
+Using this key with the following input.
+
+```
+1 1 1 6
+```
+
+The total would be 5.00 + 5.00 + 5.00 + 0.99 = 15.99
+
+You can embed this key in your program or read it from the the `price-key.txt` file.
+Whatever you do, you have to link these prices with the ID's to perform the calculation.
 
 ## Output
 
 Once the total is calculated, you program should write the value to standard out and terminate.
 This value should be formatted as a float and should only have 2 decimal places, since it is money.
 
-### Usage Pattern
+## Usage Pattern
 
 ```
 >$ your-program < cart.txt
