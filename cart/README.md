@@ -65,7 +65,27 @@ Whatever you do, you have to link these prices with the ID's to perform the calc
 ## Output
 
 Once the total is calculated, you program should write the value to standard out and terminate.
-This value should be formatted as a float and should only have 2 decimal places, since it is money.
+This value should be formatted as a float and should only have 2 decimal places.
+The reason for this is because the output is representing a monetary total.
+
+### Valid Outputs
+
+```
+3.28
+0.98
+5.00
+.56
+7584.38
+```
+
+### Invalid Outputs
+
+```
+$3.28
+5
+.56869586
+7584.383494
+```
 
 ## Usage Pattern
 
