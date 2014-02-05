@@ -95,7 +95,7 @@ $3.28
 >$
 ```
 
-In this usage pattern we're using the terminal's redirection pipe to pipe the contents of cart.txt into your-program's standard input.
+In this usage pattern we're using the terminal's file redirection to pipe the contents of cart.txt into your-program's standard input.
 You program is expected to function using this usage pattern.
 The output in the terminal should look like the above example.
 
