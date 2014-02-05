@@ -1,0 +1,9 @@
+1 5.00 bananna
+2 0.56 ranch-packet
+3 5.45 frozen-pizza
+4 25.00 single-barrel-malt-whiskey
+5 9.87 12-pack-tecate
+6 0.99 gum
+7 4.95 bacon
+8 1.59 cotton-balls
+9 3.33 6-satan-wings
